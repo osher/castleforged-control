@@ -1,0 +1,17 @@
+database:
+  client:         mysql
+  connection:
+    host:         127.0.0.1
+    database:     chronicus
+    charset:      utf8
+    user:         root
+    password:     root
+  seeds:
+    directory:    ./seeds/
+  data:
+    directory:    ./data
+    load:
+    - elements
+    - roles
+    - log-types
+    - log-entries

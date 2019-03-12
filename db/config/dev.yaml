@@ -1,0 +1,5 @@
+database:
+  connection:
+    host:         127.0.0.1
+    database:     chronicus-dev
+    password:     root

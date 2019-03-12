@@ -1,0 +1,4 @@
+database:
+  connection:
+    host:         DB_HOST
+    database:     DB_NAME
