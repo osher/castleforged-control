@@ -1,0 +1,27 @@
+web:
+  port: 3030
+
+database:
+  client: mysql
+  connection: 
+    host:     127.0.0.1
+    database:     chronicus
+    charset:      utf8
+    user:         root
+    password:     root
+
+logger:
+  levels:
+    default: info
+
+shutdown:
+  grace:
+    #after how many signals to terminate abruptly
+    signals:  3
+    #how many ms to wait for graceful shutdown to complete
+    #before terminating abruptly
+    ms:       5000
+
+debug:
+  stackup: false
+  knex:    false
